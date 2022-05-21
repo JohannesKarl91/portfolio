@@ -51,12 +51,14 @@
         text-decoration: none;
         font-weight: bold;
         cursor: pointer;
+        color: black;
 
 
         &:hover {
             font-weight: bolder;
             text-decoration: underline;
             text-decoration-thickness: 3px;
+            color: black;
 
         }
     }
