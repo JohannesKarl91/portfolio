@@ -15,18 +15,23 @@ body {
      --font-size-h1: 60px;
      --font-size-h2: 36px;
      --font-size-p: 18px;
-     //headeranimationtime
+     //spacing
+     --spacing-xs: 16px;
+     --spacing-l: 32px;
+     --spacing-xl: 46px;
+     --spacing-xxl: 142px;
+     //animation time during starting homepage 
      --nav-load-time: 500ms;
     --nav-link-load-time: 700ms;
-    --load-time-main: calc(var(--nav-load-time)+var(--nav-link-load-time));
-
+    --load-time-main: 1.2s;
+    --load-time-p: 1.5s;
+    overflow-x: hidden;
 }
 
-.padding-element {
+.padding-horizontal{
      padding-left: 7vw;
      padding-right: 7vw;
 }
-
 
 /* lato-100 - latin */
 @font-face {

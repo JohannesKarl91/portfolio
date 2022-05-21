@@ -7,7 +7,6 @@
     padding-bottom: 1vh;
     animation: header-load var(--nav-load-time) ease-in var(--nav-load-time);
 
-
     nav ul {
         display: flex;
     }
@@ -42,6 +41,10 @@
     img {
         width: 85px;
         height: 55px;
+        animation-name: nav-first-link-load;
+        animation-timing-function: ease-in;
+        animation-duration: var(--nav-link-load-time);
+        animation-fill-mode: forwards;
     }
 
     a {
