@@ -1,0 +1,30 @@
+.imprint{
+
+    h1{
+        font-size: var(--font-size-h1);
+    }
+
+    h2{
+        font-size: var(--font-size-h2);
+    }
+
+    p{
+        font-size: var(--font-size-p);
+    }
+
+    a{
+        text-decoration: none;
+        color: black;
+
+        &:hover{
+            text-decoration: underline;
+            text-decoration-thickness: 1px;
+            color: black;
+            transition: all 225ms ease-in-out;
+        }
+    }
+
+    .e-mail{
+        color: var(--color-primary) !important;
+    }
+}

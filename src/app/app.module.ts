@@ -10,6 +10,9 @@ import { MyWorkComponent } from './my-work/my-work.component';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { SuccessComponent } from './success/success.component';
+import { FooterComponent } from './footer/footer.component';
+import { ImprintComponent } from './imprint/imprint.component';
+import { PrivacyNoticeComponent } from './privacy-notice/privacy-notice.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +23,10 @@ import { SuccessComponent } from './success/success.component';
     MyWorkComponent,
     AboutComponent,
     ContactComponent,
-    SuccessComponent
+    SuccessComponent,
+    FooterComponent,
+    ImprintComponent,
+    PrivacyNoticeComponent
   ],
   imports: [
     BrowserModule,

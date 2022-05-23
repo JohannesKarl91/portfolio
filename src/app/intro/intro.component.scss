@@ -29,11 +29,11 @@
     width: 24px;
 }
 
-.intro-text{
+.intro-text {
     position: absolute;
     top: 10%;
     left: 0;
-    
+
     h1 {
         font-size: var(--font-size-h1);
         color: white;
@@ -46,14 +46,37 @@
         opacity: 0;
     }
 
-    p{
+    p {
         font-size: var(--font-size-p);
         color: white;
-        
+
         animation: article-load var(--nav-load-time) ease-in var(--load-time-p);
         animation-fill-mode: forwards;
         transform: translateY(-20px);
         opacity: 0;
+    }
+
+    button {
+        width: 130px;
+        height: 65px;
+        padding: var(--spacing-xs);
+        background-color: transparent;
+        color: white;
+        border: 1px solid white;
+        font-size: var(--font-size-p);
+        border-radius: 10px;
+
+        animation: article-load var(--nav-load-time) ease-in var(--load-time-p);
+        animation-fill-mode: forwards;
+        transform: translateY(-20px);
+        opacity: 0;
+        cursor: pointer;
+
+        &:hover {
+            background-color: var(--color-action);
+            color: white;
+            border: none;
+        }
     }
 }
 
