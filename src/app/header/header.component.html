@@ -1,11 +1,25 @@
-<div class="header-container padding-horizontal">
-    <a routerLink="/"><img src="assets/img/logo_jw.png"></a>
+<div class="header">
+    <div class="header-container padding-horizontal">
+        <a routerLink="/"><img src="assets/img/logo_jw.png"></a>
 
-    <nav class="header-menu">
-        <ul>
-            <li><a routerLink="/">HOME</a></li>
-            <li><a href="#about">ABOUT ME</a></li>
-            <li><a href="#my-work">MY WORK</a></li>
+        <nav class="header-menu">
+            <ul>
+                <li><a routerLink="/">HOME</a></li>
+                <li><a href="#about">ABOUT ME</a></li>
+                <li><a href="#my-work">MY WORK</a></li>
+            </ul>
+        </nav>
+        <!-- <img id="headerResponsiveMenuOpen" (click)="addReponsiveMenu()" class="responsive-open-btn"
+            src="assets/img/menu.svg">
+        <img id="headerResponsiveMenuClose" (click)="hideReponsiveMenu()" class="responsive-close-btn d-none"
+            src="assets/img/close.svg"> -->
+    </div>
+
+    <!-- <nav class="header-container-responsive d-none" id="headerResponsiveMenu">
+        <ul class="responsive-list-ul">
+            <li (click)="hideReponsiveMenu()" class="responsive-list-li"><a routerLink="/">HOME</a></li>
+            <li (click)="hideReponsiveMenu()" class="responsive-list-li"><a href="#about">ABOUT ME</a></li>
+            <li (click)="hideReponsiveMenu()" class="responsive-list-li"><a href="#my-work">MY WORK</a></li>
         </ul>
-    </nav>
+    </nav> -->
 </div>

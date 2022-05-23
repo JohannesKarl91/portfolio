@@ -41,7 +41,7 @@
         }
     }
 
-    .contact-form-input-invalid{
+    .contact-form-input-invalid {
         outline: 1px solid var(--color-invalid) !important;
     }
 }
@@ -77,4 +77,12 @@
 .d-flexbox {
     display: flex;
     justify-content: flex-end;
+}
+
+//Responsive Part
+@media(max-width: 970px) {
+    .padding-horizontal-contact {
+        padding-left: var(--spacing-xs);
+        padding-right: var(--spacing-xs);
+    }
 }

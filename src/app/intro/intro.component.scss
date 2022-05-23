@@ -3,7 +3,6 @@
     object-fit: cover;
     height: 90vh;
     width: 100%;
-    overflow-x: hidden;
 }
 
 .intro-arrow-container {
@@ -77,6 +76,17 @@
             color: white;
             border: none;
         }
+    }
+}
+
+@media(max-width: 970px){
+    h1{
+        font-size: var(--font-size-h2) !important;
+    }
+
+    .intro-text{
+        padding-left: var(--spacing-xs) !important;
+        padding-right: var(--spacing-xs) !important;
     }
 }
 

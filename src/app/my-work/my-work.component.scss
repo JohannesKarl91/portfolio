@@ -23,8 +23,8 @@
     margin-bottom: var(--spacing-xl);
 
     img {
-        height: 30vh;
-        width: 35vw;
+        height: 28vh;
+        width: 33vw;
     }
 
     h2 {
@@ -35,6 +35,7 @@
     p {
         font-size: var(--font-size-p);
         margin-bottom: var(--spacing-l);
+        text-align: center;
     }
 
     .my-work-info {
@@ -77,5 +78,42 @@
         &:hover {
             background-color: var(--color-action);
         }
+    }
+
+    .my-work-img-responsive{
+        display: none;
+    }
+}
+
+@media(max-width: 970px){
+    .my-work{
+        padding-left: var(--spacing-xs);
+        padding-right: var(--spacing-xs);
+    }
+    
+    .my-work-project{
+        display: block;
+        height: 67vh;
+    }
+
+    .my-work-img-responsive{
+        display: block !important;
+    }
+
+    .my-work-img-check{
+        display: none;
+    }
+
+    img {
+        height: 10vh;
+        width: 100% !important;
+    }
+
+    .my-work-info {
+     padding: var(--spacing-xs) !important;
+    }
+
+    p{
+        font-size: var(--font-size-responsive);
     }
 }
