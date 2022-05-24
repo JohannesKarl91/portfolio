@@ -1,12 +1,12 @@
 .about-section {
     margin-top: var(--spacing-xxl);
     background-color: #f2f2f2;
-    height: 95vh;
+    height: 90vh;
     width: 100%;
     display: flex;
 
     .img-profil {
-        min-width: 33vw;
+        width: 390px;
         height: 100%;
         object-fit: cover;
     }
@@ -24,7 +24,7 @@
         padding-top: var(--spacing-l);
         flex-direction: column;
         text-align: center;
-        width: 60vw;
+        width: 100%;
         display: flex;
         justify-content: center;
     }
@@ -35,7 +35,6 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    width: 42vw;
 
     .about-skill-container {
         display: flex;
@@ -45,8 +44,8 @@
         height: 75px;
         background-color: var(--color-action);
         position: relative;
-        margin-right: 1vw;
-        margin-left: 1vw;
+        margin-right: 12px;
+        margin-left: 12px;
         margin-bottom: 10vh;
         border-radius: 10px;
     }

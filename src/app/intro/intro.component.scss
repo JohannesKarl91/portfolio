@@ -2,7 +2,9 @@
     position: relative;
     object-fit: cover;
     height: 90vh;
-    width: 100%;
+    width: 100vw;
+    max-width: 100%;
+    overflow: hidden;
 }
 
 .intro-arrow-container {
@@ -87,6 +89,10 @@
     .intro-text{
         padding-left: var(--spacing-xs) !important;
         padding-right: var(--spacing-xs) !important;
+    }
+
+    .intro-arrow-container{
+        left: 45%;
     }
 }
 
