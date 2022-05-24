@@ -1,13 +1,11 @@
-<div class="about-section" data-aos="fade-up">
-    <img class="img-profil" src="/assets/img/2022-05-20_Bewerbungsfoto.jpg" data-aos="flip-left" data-aos-easing="ease-out-cubic"
-        data-aos-duration="2000">
-    <div class="about-text padding-horizontal" data-aos="flip-left" data-aos-easing="ease-out-cubic"
-        data-aos-duration="2000">
+<div class="about-section">
+    <img class="img-profil" src="/assets/img/2022-05-20_Bewerbungsfoto.jpg">
+    <div class="about-text padding-horizontal">
         <h2>ABOUT ME</h2>
         <p class="d-spacing-l">"I'm an outdoor enthusiast (hiking forever) and front-end developer who loves facing new challenges!"</p>
         <div class="about-skills">
-            <div *ngFor="let skill of skills" class="about-skill-container"  data-aos="flip-up">
-                <div class="about-img-frame">
+            <div *ngFor="let skill of skills" class="about-skill-container" data-aos="flip-down">
+                <div class="about-img-frame" data-aos="flip-down">
                     <img src="/{{ skill.img }}">
                 </div>
                 <p>{{ skill.text }}</p>

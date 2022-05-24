@@ -185,6 +185,45 @@
     }
 }
 
+@media(width:540px){
+    .header-container-responsive{
+        top: 13vh !important;
+    }
+    
+    .responsive-list-ul{
+        height: 25vh !important;
+    }
+}
+
+@media(width:375px){
+    .header-container-responsive{
+        top: 13vh !important;
+    }
+    
+    .responsive-list-ul{
+        height: 25vh !important;
+    }
+}
+
+@media(width:360px){
+    .header-container-responsive{
+        top: 13vh !important;
+    }
+    
+    .responsive-list-ul{
+        height: 25vh !important;
+    }
+}
+
+@media(width:280px){
+    .header-container-responsive{
+        top: 13vh !important;
+    }
+    
+    .responsive-list-ul{
+        height: 25vh !important;
+    }
+}
 
 //Animation configurations
 @keyframes header-load {

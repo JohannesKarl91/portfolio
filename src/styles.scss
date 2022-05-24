@@ -9,6 +9,9 @@ html {
 body {
      margin: 0;
      font-family: 'Lato', sans-serif;
+     width: 100vw;
+     max-width: 100%;
+     overflow-x: hidden;
      //variables for color templates
      --color-primary: #126BFB;
      --color-secondary: #EEF4FF;
@@ -19,6 +22,7 @@ body {
      //font-sizes
      --font-size-h1: 60px;
      --font-size-h2: 36px;
+     --font-size-h3: 24px;
      --font-size-p: 18px;
      --font-size-responsive: 9px;
      //spacing

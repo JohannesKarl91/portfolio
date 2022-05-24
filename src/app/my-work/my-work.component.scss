@@ -1,9 +1,12 @@
+.my-work {
+    width: 100%;
+}
+
 .my-work-header {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 10vh;
-    width: 100%;
 
     h2 {
         font-size: var(--font-size-h2);
@@ -16,26 +19,29 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: var(class="my-work-project padding-horizontal");
-    height: 37.5vh;
-    width: 100%;
     background-color: #f2f2f2;
     margin-bottom: var(--spacing-xl);
+    padding-right: var(--spacing-xs);
+    padding-left: var(--spacing-xs);
+    padding-bottom: var(--spacing-xs);
+    padding-top: var(--spacing-xs);
 
     img {
-        height: 28vh;
-        width: 33vw;
+        height: 100%;
+        width: 375px;
+        object-fit: cover;
     }
 
     h2 {
-        font-size: var(--font-size-h2);
+        font-size: var(--font-size-h3);
         margin-bottom: var(--spacing-xs) !important;
     }
 
     p {
         font-size: var(--font-size-p);
-        margin-bottom: var(--spacing-l);
+        margin-bottom: var(--spacing-xs);
         text-align: center;
+        min-height: 104px;
     }
 
     .my-work-info {
@@ -80,40 +86,57 @@
         }
     }
 
-    .my-work-img-responsive{
+    .my-work-img-responsive {
         display: none;
+        object-fit: cover;
     }
 }
 
-@media(max-width: 970px){
-    .my-work{
-        padding-left: var(--spacing-xs);
-        padding-right: var(--spacing-xs);
-    }
-    
-    .my-work-project{
-        display: block;
-        height: 67vh;
+.btn-container {
+    display: flex;
+}
+
+// Responsive Part
+@media(max-width: 970px) {
+    .my-work {
+        padding: var(--spacing-xs) !important;
     }
 
-    .my-work-img-responsive{
+    .my-work-project {
+        display: block;
+        height: 65vh;
+        padding-top: 0 !important;
+
+        img {
+            height: 28vh;
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+
+    .my-work-img-responsive {
         display: block !important;
     }
 
-    .my-work-img-check{
+    .my-work-img-check {
         display: none;
     }
 
-    img {
-        height: 10vh;
-        width: 100% !important;
-    }
-
     .my-work-info {
-     padding: var(--spacing-xs) !important;
+        height: 28vh;
+        width: 100%;
+        object-fit: cover;
     }
+}
 
-    p{
-        font-size: var(--font-size-responsive);
+@media(width: 375px) {
+    .my-work-project {
+        height: 80vh !important;
+    }
+}
+
+@media(width: 280px) {
+    .my-work-project {
+        height: 85vh !important;
     }
 }
