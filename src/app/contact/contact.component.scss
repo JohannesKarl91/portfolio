@@ -1,16 +1,14 @@
 .contact {
     margin-top: var(--spacing-xxl);
-    height: 100vh;
-    width: 100vw;
-    max-width: 100%;
-    overflow-x: hidden;
+    height: 85vh;
+    width: 98%;
 
     display: flex;
     flex-direction: column;
     align-items: center;
 
     h2 {
-        font-size: var(--font-size-h2);
+        font-size: var(--font-size-h3);
     }
 
     .contact-text {
@@ -48,7 +46,7 @@
 }
 
 .d-height {
-    height: 30vh !important;
+    height: 20vh !important;
 }
 
 .my-work-btn-right {
@@ -74,8 +72,8 @@
 //Responsive Part
 @media(max-width: 970px) {
     .padding-horizontal-contact {
-        padding-left: var(--spacing-xs);
-        padding-right: var(--spacing-xs);
+        padding-left: 0 !important;
+        padding-right: 0 !important;
     }
 
     .contact{
@@ -93,5 +91,26 @@
         textarea{
             width: 80vw !important;
         }
+    }
+}
+
+@media(max-width: 375px) {
+    .contact{
+        height: 100vh !important;
+        margin-bottom: var(--spacing-l);
+    }
+}
+
+@media(width: 280px) {
+    .contact{
+        height: 100vh !important;
+        margin-bottom: var(--spacing-l);
+    }
+}
+
+@media(width: 540px) {
+    .contact{
+        height: 100vh !important;
+        margin-bottom: var(--spacing-l);
     }
 }

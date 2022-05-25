@@ -3,7 +3,7 @@
 ########### CONFIG ###############
 
 $recipient = 'johannes.k.weber@web.de';  //Email adress of recipient
-$redirect = '/success';  //HTML document which will be opened after sending
+$redirect = '/';  //HTML document which will be opened after sending
 
 ########### CONFIG END ###########
 

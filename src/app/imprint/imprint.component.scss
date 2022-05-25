@@ -28,3 +28,37 @@
         color: var(--color-primary) !important;
     }
 }
+
+@media(max-width:960px){
+    .imprint{
+        margin-top: var(--spacing-xll);
+        height: 65vh;
+        width: 90%;
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+
+    h1{
+        font-size: var(--font-size-h2) !important;
+    }
+
+    h2{
+        font-size: var(--font-size-h3) !important;
+    }
+
+    p{
+        font-size: var(--font-size-p) !important;
+    }
+}
+
+@media(width:280px){
+    .imprint{
+        height: 80vh !important;
+    }
+}
+
+@media(width:375px){
+    .imprint{
+        height: 70vh !important;
+    }
+}
