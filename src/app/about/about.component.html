@@ -1,15 +1,18 @@
 <div class="about-section">
-    <img class="img-profil" src="/assets/img/2022-05-20_Bewerbungsfoto.jpg">
-    <div class="about-text padding-horizontal">
-        <h2>ABOUT ME</h2>
-        <p class="d-spacing-l">"I'm an outdoor enthusiast (hiking forever) and front-end developer who loves facing new challenges!"</p>
-        <div class="about-skills">
-            <div *ngFor="let skill of skills" class="about-skill-container" data-aos="flip-down">
-                <div class="about-img-frame" data-aos="flip-down">
-                    <img src="/{{ skill.img }}">
-                </div>
-                <p>{{ skill.text }}</p>
+    <div class="about-header">
+        <img class="img-profil" src="/assets/img/2022-05-20_Bewerbungsfoto.jpg">
+        <div class="about-text padding-horizontal">
+            <h2>ABOUT ME</h2>
+            <p class="d-spacing-l">"I'm an outdoor enthusiast (hiking forever) and front-end developer who loves facing
+                new challenges!"</p>
+        </div>
+    </div>
+    <div class="about-skills">
+        <div *ngFor="let skill of skills" class="about-skill-container" data-aos="flip-down">
+            <div class="about-img-frame" data-aos="flip-down">
+                <img src="/{{ skill.img }}">
             </div>
+            <p>{{ skill.text }}</p>
         </div>
     </div>
 </div>
