@@ -40,9 +40,9 @@ switch ($_SERVER['REQUEST_METHOD']) {
         header("Access-Control-Allow-Origin: *");
 
         $subject = "Contact From " . $_POST['name'];
-        $headers = "From:  noreply@web-site24.de";
+        $headers = "From:  noreply@johannes-weber.eu";
 
-        mail($recipient, $subject, $_POST['message'], $headers);
+        mail($recipient, $subject, $_POST['message'], $_POST['email'], $headers);
         header("Location: " . $redirect); 
 
         break;

@@ -11,4 +11,8 @@ export class ContactComponent implements OnInit {
 
   ngOnInit(): void {
   }
+
+  sendFeedback(){
+    alert('Email wurde erfolgreich versandt!')
+  }
 }

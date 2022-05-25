@@ -8,7 +8,7 @@ import { PrivacyNoticeComponent } from './privacy-notice/privacy-notice.componen
 import { SuccessComponent } from './success/success.component';
 
 const routes: Routes = [
-  {path:'', component: MainComponent},
+  { path:'', component: MainComponent },
   { path: 'success', component: SuccessComponent },
   { path: 'imprint', component: ImprintComponent },
   { path: 'privacy', component: PrivacyNoticeComponent },

@@ -29,6 +29,8 @@
     }
 }
 
+
+//Responsive Configuration
 @media(max-width:960px){
     .imprint{
         margin-top: var(--spacing-xll);
@@ -44,10 +46,6 @@
 
     h2{
         font-size: var(--font-size-h3) !important;
-    }
-
-    p{
-        font-size: var(--font-size-p) !important;
     }
 }
 

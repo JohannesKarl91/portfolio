@@ -1,7 +1,6 @@
 .about-section {
     margin-top: var(--spacing-xxl);
     background-color: #f2f2f2;
-    height: 90vh;
     width: 100%;
     display: flex;
 
@@ -78,11 +77,11 @@
     padding-bottom: var(--spacing-l);
 }
 
-//Responsive Part
+
+//Responsive Configuration
 @media(max-width: 970px) {
     .about-section {
         display: block !important;
-        height: 100vh !important;
         margin-top: 0 !important;
 
         h2 {
@@ -125,21 +124,12 @@
 }
 
 @media(width: 375px) {
-    .about-section {
-        height: 133vh !important;
-        margin-top: 0 !important;
-    }
-
     .about-text{
         padding-top: 0 !important;
     }
 }
 
 @media(width: 280px) {
-    .about-section {
-        height: 133vh !important;
-    }
-
     .about-text{
         padding-top: 0 !important;
     }
