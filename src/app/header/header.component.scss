@@ -237,6 +237,47 @@
     }
 }
 
+@media(max-height:414px) {
+    .header-container-responsive {
+        top: 25vh
+    }
+
+    .responsive-list-ul {
+        height: 40vh !important;
+    }
+}
+
+@media(height:540px) {
+    .header-container-responsive {
+        top: 18vh !important;
+    }
+    
+    .responsive-list-ul {
+        height: 32vh !important;
+    }
+}
+
+@media(height:360px) {
+    .header-container-responsive {
+        top: 30vh !important;
+    }
+    
+    .responsive-list-ul {
+        height: 45vh !important;
+    }
+}
+
+@media(height:280px) {
+    .header-container-responsive {
+        top: 39vh
+    }
+
+    .responsive-list-ul {
+        height: 57vh !important;
+    }
+}
+
+
 //Animation configurations
 @keyframes header-load {
     0% {

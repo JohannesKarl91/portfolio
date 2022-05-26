@@ -1,22 +1,22 @@
-.imprint{
+.imprint {
 
-    h1{
+    h1 {
         font-size: var(--font-size-h1);
     }
 
-    h2{
+    h2 {
         font-size: var(--font-size-h2);
     }
 
-    p{
+    p {
         font-size: var(--font-size-p);
     }
 
-    a{
+    a {
         text-decoration: none;
         color: black;
 
-        &:hover{
+        &:hover {
             text-decoration: underline;
             text-decoration-thickness: 1px;
             color: black;
@@ -24,15 +24,15 @@
         }
     }
 
-    .e-mail{
+    .e-mail {
         color: var(--color-primary) !important;
     }
 }
 
 
 //Responsive Configuration
-@media(max-width:960px){
-    .imprint{
+@media(max-width:960px) {
+    .imprint {
         margin-top: var(--spacing-xll);
         height: 65vh;
         width: 90%;
@@ -40,23 +40,35 @@
         margin-right: 8px;
     }
 
-    h1{
+    h1 {
         font-size: var(--font-size-h2) !important;
     }
 
-    h2{
+    h2 {
         font-size: var(--font-size-h3) !important;
     }
 }
 
-@media(width:280px){
-    .imprint{
+@media(width:280px) {
+    .imprint {
         height: 80vh !important;
     }
 }
 
-@media(width:375px){
-    .imprint{
+@media(width:375px) {
+    .imprint {
         height: 70vh !important;
+    }
+}
+
+@media(max-height: 414px) {
+    .imprint {
+        height: unset;
+    }
+}
+
+@media(height: 540px) {
+    .imprint {
+        height: unset;
     }
 }
