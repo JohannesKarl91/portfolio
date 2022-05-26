@@ -3,7 +3,7 @@
     background-color: #f2f2f2;
     width: 100%;
 
-    .about-header{
+    .about-header {
         display: flex;
     }
 
@@ -100,7 +100,7 @@
             justify-content: center;
         }
 
-        p{
+        p {
             padding: 8px;
         }
     }
@@ -127,13 +127,21 @@
 }
 
 @media(width: 375px) {
-    .about-text{
+    .about-text {
         padding-top: 0 !important;
     }
 }
 
 @media(width: 280px) {
-    .about-text{
+    .about-text {
         padding-top: 0 !important;
+    }
+}
+
+@media(max-height: 414px) {
+    .about-skills {
+        .about-skill-container {
+            margin-top: var(--spacing-xs);
+        }
     }
 }

@@ -112,6 +112,11 @@
             width: 100%;
             object-fit: cover;
         }
+
+        p{
+            padding-left: var(--spacing-xs);
+            padding-right: var(--spacing-xs);
+        }
     }
 
     .my-work-img-responsive {
@@ -138,5 +143,25 @@
 @media(width: 280px) {
     .my-work-project {
         height: 85vh !important;
+    }
+}
+
+
+@media(max-height: 414px) {
+    .my-work-header {
+        height: unset !important;
+    }
+
+    //Hier ist der letzte Stand! :-)
+    .my-work-project {
+        height: unset !important;
+        
+        img {
+            height: 89vh !important;
+        }
+    }
+
+    .my-work-info{
+        height: unset !important;
     }
 }

@@ -48,9 +48,11 @@
 
     .footer-left {
         width: 100% !important;
+        padding-left: var(--spacing-xs) !important;
+        padding-right: var(--spacing-xs) !important;
 
         p {
-            font-size: var(--spacing-xs) !important;
+            font-size: 9px !important;
         }
     }
 

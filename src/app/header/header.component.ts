@@ -12,21 +12,21 @@ export class HeaderComponent implements OnInit {
   ngOnInit(): void {
   }
 
-   addReponsiveMenu() {
-     let reponsiveMenu = document.getElementById('headerResponsiveMenu');
-     reponsiveMenu.classList.remove('d-none');
-     let reponsiveMenuClose = document.getElementById('headerResponsiveMenuClose');
-     reponsiveMenuClose.classList.remove('d-none');
-     let reponsiveMenuOpen = document.getElementById('headerResponsiveMenuOpen')
-     reponsiveMenuOpen.style.cssText = 'display: none !important;';
-   }
+  addReponsiveMenu() {
+    let reponsiveMenu = document.getElementById('headerResponsiveMenu');
+    reponsiveMenu.classList.remove('d-none');
+    let reponsiveMenuClose = document.getElementById('headerResponsiveMenuClose');
+    reponsiveMenuClose.classList.remove('d-none');
+    let reponsiveMenuOpen = document.getElementById('headerResponsiveMenuOpen')
+    reponsiveMenuOpen.style.cssText = 'display: none';
+  }
 
-   hideReponsiveMenu() {
-     let reponsiveMenu = document.getElementById('headerResponsiveMenu');
-     reponsiveMenu.classList.add('d-none');
-     let reponsiveMenuClose = document.getElementById('headerResponsiveMenuClose');
-     reponsiveMenuClose.classList.add('d-none');
-     let reponsiveMenuOpen = document.getElementById('headerResponsiveMenuOpen')
-     reponsiveMenuOpen.style.cssText = 'display: block !important;';
-   }
+  hideReponsiveMenu() {
+    let reponsiveMenu = document.getElementById('headerResponsiveMenu');
+    reponsiveMenu.classList.add('d-none');
+    let reponsiveMenuClose = document.getElementById('headerResponsiveMenuClose');
+    reponsiveMenuClose.classList.add('d-none');
+      let reponsiveMenuOpen = document.getElementById('headerResponsiveMenuOpen')
+      reponsiveMenuOpen.style.cssText = 'display: block';
+  }
 }
