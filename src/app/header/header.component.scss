@@ -172,6 +172,11 @@
         z-index: 1;
         padding-left: var(--spacing-xs) !important;
         padding-right: var(--spacing-xs) !important;
+
+        img {
+            height: 43px;
+            width: unset;
+        }
     }
 
     .header-menu {
@@ -251,7 +256,7 @@
     .header-container-responsive {
         top: 18vh !important;
     }
-    
+
     .responsive-list-ul {
         height: 32vh !important;
     }
@@ -261,7 +266,7 @@
     .header-container-responsive {
         top: 30vh !important;
     }
-    
+
     .responsive-list-ul {
         height: 45vh !important;
     }
@@ -271,7 +276,7 @@
     .header-container-responsive {
         top: 30vh !important;
     }
-    
+
     .responsive-list-ul {
         height: 45vh !important;
     }
