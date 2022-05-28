@@ -49,15 +49,15 @@
     }
 }
 
-@media(width:280px) {
+@media(width:820px){
     .imprint {
-        height: 80vh !important;
+        margin-top: var(--spacing-xxl) !important;
     }
 }
 
-@media(width:375px) {
+@media(height: 540px) {
     .imprint {
-        height: 70vh !important;
+        height: unset;
     }
 }
 
@@ -67,8 +67,14 @@
     }
 }
 
-@media(height: 540px) {
+@media(width:375px) {
     .imprint {
-        height: unset;
+        height: 70vh !important;
+    }
+}
+
+@media(width:280px) {
+    .imprint {
+        height: 80vh !important;
     }
 }

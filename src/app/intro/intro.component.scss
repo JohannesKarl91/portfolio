@@ -33,13 +33,13 @@
 }
 
 .intro-text {
-    padding-bottom: var(--spacing-xxl);
+    padding-bottom: var(--spacing-xl);
 
     h1 {
         font-size: var(--font-size-h1);
         color: white;
-        margin-top: var(--spacing-xxl);
-        margin-bottom: var(--spacing-xxl);
+        margin-top: var(--spacing-xll);
+        margin-bottom: var(--spacing-xll);
 
         animation: article-load var(--nav-load-time) ease-in var(--load-time-main);
         animation-fill-mode: forwards;

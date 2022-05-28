@@ -12,6 +12,7 @@
     justify-content: space-between;
     width: 50vw;
     height: 100%;
+    margin-right: var(--spacing-l);
 
     a {
         text-decoration: none;
@@ -39,6 +40,11 @@
     height: 100%;
 }
 
+.img-social-media{
+    width: 65px;
+    height: 65px;
+}
+
 @media(max-width: 970px) {
     .footer {
         display: block !important;
@@ -50,6 +56,7 @@
         width: 100% !important;
         padding-left: var(--spacing-xs) !important;
         padding-right: var(--spacing-xs) !important;
+        margin-right: unset;
 
         p {
             font-size: 9px !important;
